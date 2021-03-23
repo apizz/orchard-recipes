@@ -24,6 +24,8 @@
     <dict>
       <key>NAME</key>
       <string>Google_Cloud_SDK</string>
+      <key>PKG_ID</key>
+      <string>uk.ac.ox.orchard.pkg.Google-Cloud-SDK</string>
     </dict>
     <key>ParentRecipe</key>
     <string>uk.ac.ox.orchard.download.Google_Cloud_SDK</string>
@@ -72,7 +74,7 @@
             <key>pkgtype</key>
             <string>flat</string>
             <key>id</key>
-            <string>uk.ac.ox.orchard.pkg.Google-Cloud-SDK</string>
+            <string>%PKG_ID%</string>
             <key>version</key>
             <string>%version%</string>
             <key>chown</key>
